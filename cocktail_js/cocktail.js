@@ -18,6 +18,10 @@ if (window.matchMedia("(max-width: 803px)").matches) {
     about.innerHTML = "About";
     root.innerHTML = "Root";
     list.innerHTML = "List";
+    console.log(800);
+}
+if(document.style.m){
+
 }
 function myFunction() {
     var input, filter, ul, li, a, i;
