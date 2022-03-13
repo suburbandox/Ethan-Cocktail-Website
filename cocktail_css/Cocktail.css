@@ -406,6 +406,9 @@ textarea{margin-left: 10px;}
   background-color: burlywood;
   text-decoration: dotted;
 }
+#nav_menu{
+  font-size: small;
+}
 }
 @media only screen and (max-width:990px) {
 .net{
