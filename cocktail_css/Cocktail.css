@@ -141,10 +141,7 @@ transform-origin: center;
 }
 td:hover{
 transform: scale(1.2) translateX(5px);
-
 transition: 2s;
-
-
 }
 
 th:nth-child(1), td:nth-child(1){text-align: left;}
@@ -404,7 +401,7 @@ textarea{margin-left: 10px;}
 #myMenu{
   font-size: .5em;
 }
-}
+
 @media only screen and (max-width:990px) {
 .net{
     width: 90%;
@@ -443,7 +440,7 @@ src: url(../cocktail_css/Bebas-Regular.ttf);
 width: 100%;
 font-size: 18px;
 padding:0, 11px;
-/* border: 1px solid #ddd; */
+border-radius: 0;
 border: none;
 vertical-align: top;
 text-align: left;
