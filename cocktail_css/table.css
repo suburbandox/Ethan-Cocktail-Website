@@ -1,0 +1,22 @@
+table{
+    text-align: center; 
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid ;
+    border-collapse: collapse;
+    margin: 10px auto;
+    
+    }
+    th,td{
+    padding: .2em .7em;
+    border: 1px solid ;
+    transform-origin: center;
+    
+    }
+    td:hover{
+    transform: scale(1.2) translateX(5px);
+    transition: 2s;
+    }
+    
+    th:nth-child(1), td:nth-child(1){text-align: left;}
+    td a{color: rgb(104, 21, 143);}

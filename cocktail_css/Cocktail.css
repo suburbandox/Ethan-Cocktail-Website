@@ -11,11 +11,7 @@ font-size: large;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
 padding: 30px;
 }
-.area {
-color: red;
-background-color: gold;
-}
-#ar{background-color: aqua;}
+
 
 html{scroll-behavior: smooth;}
 body{
@@ -54,25 +50,38 @@ margin-right: auto;
 
 a{text-decoration: none;}
 
-
 .net{
 max-width: 1260px;
 width: 90%;
 margin: auto;
 background-color: darkgray;
 
-
 }
+.red{
+  float: left;
+  width: 100%;
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(194, 199, 199);
+  margin: 20px 0;
+  }
+  .red img{
+  width: 45%;
+  border: 2px solid indigo;
+  float: right;
+  margin-left: 10px;
+  }
+  .red h2{
+  padding: 5px;
+  font-size: 125%;
+  }
 .row{
 font-family:Arial, Helvetica, sans-serif;
 font-size: 200% ;
 padding:20px 10px;
 text-align: center;
 font-weight: bold;
-
 }
-
-
 .row2{
 display: flex;
 padding:10px 40px;
@@ -80,16 +89,7 @@ font-family: Arial, Helvetica, sans-serif;
 color: black;
 
 }
-footer p{
-text-align: center;
-color: white;
-padding: 1em 0em 1em  0em;
-}
-footer{
-background-color: indigo;
-clear: both;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .row3{
 display: flex;
 }
@@ -123,28 +123,6 @@ width: 100%;
 height: 100%;
 object-fit:cover;
 }
-table{
-text-align: center; 
-font-size: large;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border: 1px solid ;
-border-collapse: collapse;
-margin: 10px auto;
-
-}
-th,td{
-padding: .2em .7em;
-border: 1px solid ;
-transform-origin: center;
-
-}
-td:hover{
-transform: scale(1.2) translateX(5px);
-transition: 2s;
-}
-
-th:nth-child(1), td:nth-child(1){text-align: left;}
-td a{color: rgb(104, 21, 143);}
 #nav_menu ul{
 list-style: none;
 margin: 0;
@@ -167,7 +145,6 @@ width: 100%;
 position: relative;
 }
 
-
 #nav_menu ul ul li ul {
 position: absolute;
 left: 100%;            /* Position the second submenu at the right side of the li element */ 
@@ -185,7 +162,6 @@ background-color: indigo;
 color: white;
 font-weight: bold;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 #nav_menu{
 position: relative;
@@ -193,8 +169,6 @@ position: relative;
 #nav_menu ul li:hover > ul{
 display: block;
 }
-
-
 #nav_menu > ul::after{
 content: "";
 float: none;
@@ -204,24 +178,48 @@ clear: both;
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
 background-color: gray;
 }
-.red{
-float: left;
-width: 100%;
-padding: 40px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-background-color: rgb(194, 199, 199);
-margin: 20px 0;
-}
-.red img{
-width: 45%;
-border: 2px solid indigo;
-float: right;
-margin-left: 10px;
-}
-.red h2{
-padding: 5px;
-font-size: 125%;
-}
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  height: 309px;
+  overflow: hidden;
+  }
+  
+  #myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  }
+  #myMenu li a:hover {
+  background-color: #eee;
+  }
+  #mySearch::placeholder{
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+#mySearch{height: 51.5px;}
+  
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding:0, 11px;
+  border-radius: 0;
+  border: none;
+  vertical-align: top;
+  text-align: left;
+  margin: 0;
+  outline: none;
+  height: 51.5px;
+  background-color: indigo;
+  color: white;
+  } 
+
 .blue img{
 width: 100%;
 height: 100%;
@@ -248,89 +246,7 @@ color: black;
 font-size: 20px;
 }
 .red ul,.red ol{padding-left: 40px;}
-#roll1{
-background-image: url(../cocktail_images/Manhattan.JPEG);
-width: 100%;
-height: 200px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#roll1:hover{
-background-image: url(../cocktail_images/OldFashionedB.jpg);
-transition: .9s;
-filter: grayscale(100%);
-}
 
-#roll2{
-background-image: url(../cocktail_images/Martini.JPEG);
-width: 100%;
-height: 200px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#roll2:hover{
-background-image: url(../cocktail_images/MartiniB.jpg);
-transition: .9s;
-filter: grayscale(100%);
-}
-
-#roll3{
-background-image: url(../cocktail_images/Sour.JPEG);
-width: 100%;
-height: 200px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#roll3:hover{
-background-image: url(../cocktail_images/DaiquiriB.jpg);
-transition: .9s;
-filter: grayscale(100%);
-}
-
-#roll4{
-background-image: url(../cocktail_images/Margarita.JPEG);
-width: 100%;
-height: 200px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#roll4:hover{
-background-image: url(../cocktail_images/SidecarB.jpg);
-transition: .9s;
-filter: grayscale(100%);
-}
-
-#roll5{
-background-image: url(../cocktail_images/Cuba_Libre.JPEG);
-width: 100%;
-height: 200px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#roll5:hover{
-background-image: url(../cocktail_images/HighballB.jpg);
-transition: .9s;
-filter: grayscale(100%);
-}
-
-#roll6{
-background-image: url(../cocktail_images/Pina_Colada.JPEG);
-width: 100%;
-height: 200px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#roll6:hover{
-background-image: url(../cocktail_images/FlipB.jpg);
-transition: .9s;
-filter: grayscale(100%);
-}
 figcaption{
 display: block;
 margin: .5em 0 1em 1em;
@@ -425,53 +341,20 @@ h1{
   margin: 0 auto;
   margin-bottom: 40px;
 }
-#mySearch{height: 51.5px;}
+
 }
 @font-face {
 font-family: bebas;
 src: url(../cocktail_css/Bebas-Regular.ttf);
 }
-
-/* Style the search box */
-#mySearch {
-width: 100%;
-font-size: 18px;
-padding:0, 11px;
-border-radius: 0;
-border: none;
-vertical-align: top;
-text-align: left;
-margin: 0;
-outline: none;
-height: 51.5px;
-background-color: indigo;
-color: white;
-}  
-
-
-/* Style the navigation menu inside the left column */
-#myMenu {
-list-style-type: none;
-padding: 0;
-margin: 0;
-display: none;
-height: 309px;
-overflow: hidden;
-}
-
-#myMenu li a {
-padding: 12px;
-text-decoration: none;
-color: black;
-display: block;
-}
-
-#myMenu li a:hover {
-background-color: #eee;
-}
-
-#mySearch::placeholder{
-color: white;
-text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+ 
+footer p{
+  text-align: center;
+  color: white;
+  padding: 1em 0em 1em  0em;
+  }
+  footer{
+  background-color: indigo;
+  clear: both;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
