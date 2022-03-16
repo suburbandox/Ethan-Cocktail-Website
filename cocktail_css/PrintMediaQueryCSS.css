@@ -7,3 +7,19 @@
   }
   button{display: none;}
 }
+button{
+
+  float: right;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.575);
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid black;
+  font-size: 80%;
+  font-family: 'bebas', Times, serif;
+  border-radius: 8px;
+  }
+  button:hover{
+  background-color: rgba(228, 194, 5, 0.726);
+  color: black;
+  }

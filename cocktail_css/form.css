@@ -1,0 +1,41 @@
+figcaption{
+    display: block;
+    margin: .5em 0 1em 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: .25em;
+    margin-bottom: 1em;
+    border-bottom:  1px solid black;
+    animation: ani 2s ease-in-out 3s  infinite alternate ;
+    }
+    @keyframes ani{
+    from{padding-left:0px;}
+    to{padding-left:500px;}
+    }
+    
+    dd{line-height: 30px;}
+    legend {
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+    margin-bottom: .5em;
+    }
+    fieldset {
+    margin-bottom: .5em;
+    padding: 10px 1em;
+    margin: 20px 0;
+    }
+    form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    label{
+    width: 15em;
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+    }
+    input
+    {
+    margin-left: 10px;
+    }
