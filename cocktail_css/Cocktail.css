@@ -153,6 +153,8 @@ background-color: darkgray;
   padding: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(194, 199, 199);
+
+
   margin: 20px 0;
  
   }
@@ -225,7 +227,7 @@ object-fit:cover;
 }
 .blue{
   background-color: greenyellow;
-  margin: 0;
+
 }
 .blue img{
 
@@ -235,6 +237,7 @@ border: 2px solid indigo;
 
 .blurb {
 font-size: 20px;
+
 }
 ul, ol{padding-left: 40px;}
 
