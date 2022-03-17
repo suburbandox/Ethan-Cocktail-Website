@@ -14,7 +14,7 @@ figcaption{
     to{padding-left:500px;}
     }
     
-    dd{line-height: 30px;}
+    
     legend {
     color: black;
     font-weight: bold;
@@ -39,3 +39,5 @@ figcaption{
     {
     margin-left: 10px;
     }
+    textarea{margin-left: 10px;}
+    form{clear: both;}

@@ -94,7 +94,6 @@
     background-color: indigo;
     color: white;
     } 
-  
 h1{
   text-align: center;
   font-size: 350%;
@@ -104,7 +103,6 @@ h1{
   text-shadow: 4px 4px gray ;
 }
 #dec{
-font-size: large;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,sans-serif;
 padding: 30px;
 }
@@ -119,54 +117,34 @@ max-width: 1026px;
 * {
 box-sizing: border-box;
 }
-
 img:hover{
 transition: .9s;
 filter: grayscale(100%);
 }
-
 .desc {
 padding: 20px;
 text-align: center;
-width: auto;
 color: mintcream;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 200%; 
 }
-video{
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
 a{text-decoration: none;}
-
 .net{
 max-width: 1260px;
 width: 90%;
 margin: auto;
 background-color: darkgray;
-
+}
+.box{
+padding: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(194, 199, 199);
+margin: 20px 0;
 }
 .red{
   float: left;
   width: 100%;
   padding: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(194, 199, 199);
-
-
-  margin: 20px 0;
- 
-  }
-
-  p img{
-    width: 45%;
-    border: 2px solid indigo;
-    float: right;
-    margin-left: 10px;
-  }
-  .box{
-    padding: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(194, 199, 199);
   margin: 20px 0;
@@ -177,10 +155,6 @@ background-color: darkgray;
   float: right;
   margin-left: 10px;
   }
-  .red h2{
-  padding: 5px;
-  font-size: 125%;
-  }
 .row{
 font-family:Arial, Helvetica, sans-serif;
 font-size: 200% ;
@@ -189,7 +163,6 @@ text-align: center;
 font-weight: bold;
 }
 .row2{
-
 padding:10px 40px;
 font-family: Arial, Helvetica, sans-serif;
 color: black;
@@ -197,8 +170,8 @@ font-size: 150%;
 }
 .row3{
 display: flex;
+justify-content: space-evenly;
 }
-
 .col3{
 width: 390px ;
 background-color: grey;
@@ -208,17 +181,13 @@ border-radius: 10px;
 }
 dd{margin-inline-start: 40px;}
 dt{font-weight: bold;}
-
+dd{line-height: 30px;}
 *{
 margin: 0;
 padding: 0;
 }
-
 .pico{
-width: 100%;
 height: 200px;
-margin: auto;
-
 }
 .pico img{
 width: 100%;
@@ -227,22 +196,17 @@ object-fit:cover;
 }
 .blue{
   background-color: greenyellow;
-
 }
 .blue img{
-
 width: 100%;
 border: 2px solid indigo;
 }
 
 .blurb {
 font-size: 20px;
-
 }
 ul, ol{padding-left: 40px;}
 
-
-textarea{margin-left: 10px;}
 @media only screen and (max-width:1270px) {
 .net{
     width: 976px;
@@ -254,15 +218,9 @@ textarea{margin-left: 10px;}
   width: 100%;
   height: 100%;
 }
-
 }
 @media only screen and (max-width:800px){
-
-#myMenu{
-  font-size: .5em;
-
-}
-
+#myMenu{font-size: .5em;}
 #nav_menu ul ul li a{
   font-size: .5em;
   font-weight: normal;
@@ -295,20 +253,16 @@ h1{
   margin: 0 auto;
   margin-bottom: 40px;
 }
-
 }
 @font-face {
 font-family: bebas;
 src: url(../cocktail_css/Bebas-Regular.ttf);
 }
- 
-footer p{
+footer{  
+  padding: 1em 0em 1em  0em;
   text-align: center;
   color: white;
-  padding: 1em 0em 1em  0em;
-  }
-  footer{
   background-color: indigo;
   clear: both;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
