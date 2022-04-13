@@ -196,10 +196,11 @@ object-fit:cover;
 }
 .blue{
   background-color: greenyellow;
-  
+  margin-bottom: 10px;
 }
 .blue img{
 width: 100%;
+
 border: 2px solid indigo;
 }
 
