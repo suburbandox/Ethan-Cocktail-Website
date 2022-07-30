@@ -1,83 +1,41 @@
 #roll1{
     background-image: url(../cocktail_images/Manhattan.JPEG);
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     }
     #roll1:hover{
     background-image: url(../cocktail_images/OldFashionedB.jpg);
-    transition: .9s;
-    filter: grayscale(100%);
     }
-    
     #roll2{
     background-image: url(../cocktail_images/Martini.JPEG);
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     }
     #roll2:hover{
     background-image: url(../cocktail_images/MartiniB.jpg);
-    transition: .9s;
-    filter: grayscale(100%);
     }
-    
     #roll3{
     background-image: url(../cocktail_images/Sour.JPEG);
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     }
     #roll3:hover{
     background-image: url(../cocktail_images/DaiquiriB.jpg);
-    transition: .9s;
-    filter: grayscale(100%);
     }
-    
     #roll4{
     background-image: url(../cocktail_images/Margarita.JPEG);
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     }
     #roll4:hover{
     background-image: url(../cocktail_images/SidecarB.jpg);
-    transition: .9s;
-    filter: grayscale(100%);
-    }
-    
+  
+    } 
     #roll5{
     background-image: url(../cocktail_images/Cuba_Libre.JPEG);
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     }
     #roll5:hover{
     background-image: url(../cocktail_images/HighballB.jpg);
-    transition: .9s;
-    filter: grayscale(100%);
     }
-    
     #roll6{
     background-image: url(../cocktail_images/Pina_Colada.JPEG);
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     }
     #roll6:hover{
     background-image: url(../cocktail_images/FlipB.jpg);
-    transition: .9s;
+    }
+    [id^=roll]:hover{
+        transition: .9s;
     filter: grayscale(100%);
     }
