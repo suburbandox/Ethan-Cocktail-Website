@@ -169,15 +169,17 @@ color: black;
 font-size: 150%;
 }
 .row3{
-display: flex;
-justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 15px
 }
 .col3{
-width: 390px ;
+width: 31% ;
 background-color: grey;
-margin: 15px;
 border: 2px solid indigo;
 border-radius: 10px;
+flex-grow: 1;
 }
 dd{margin-inline-start: 40px;}
 dt{font-weight: bold;}
@@ -187,7 +189,9 @@ margin: 0;
 padding: 0;
 }
 .pico{
-height: 200px;
+  width: 100%;
+  height: 200px;
+  margin: auto;
 }
 .pico img{
 width: 100%;
