@@ -20,9 +20,7 @@ if (window.matchMedia("(max-width: 803px)").matches) {
     list.innerHTML = "List";
     console.log(800);
 }
-if(document.style.m){
 
-}
 function myFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("mySearch");
