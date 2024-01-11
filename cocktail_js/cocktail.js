@@ -9,9 +9,7 @@ search.addEventListener("click",function(event){
   event.cancelBubble = true;
   index.style.display = "block";
 })
-// document.addEventListener("click",function(){
-//   index.style.display = "none";
-// })
+
 
 
 if (window.matchMedia("(max-width: 803px)").matches) {
