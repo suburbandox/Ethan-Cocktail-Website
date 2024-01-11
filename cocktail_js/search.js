@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $("p").click(function(){
-      $(this).hide();
-    });
+    // $("p").click(function(){
+    //   $(this).hide();
+    // });
       let dot = ""
       let foo = "red"
       console.log(`my favrite color is ${foo}`)
